@@ -25,4 +25,5 @@ def isPrime(n, div):
 if __name__ == "__main__":
     welcome()
     print(factorial(5))
-    print(isPrime(11))
+    num = 11
+    print(isPrime(num, num - 1))
